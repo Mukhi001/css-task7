@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .table1,th,td {
+            border: 1px solid;
+        
+            
+        }
+        .table1{
+            border-collapse: collapse;
+            width: 100%
+        }
+        th{
+            
+            height: 70px;
+        }
+         .table1 tr:hover{
+            background-color: orange;
+        }
+
+
+        .table2{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .table2 th,.table2 td{
+            border-top: none;
+            border-bottom: none;
+
+        }
+        .table2 tr:nth-child(even){
+            background-color: rgba(128, 128, 128, 0.24) ;
+            
+        }
+        .table2 th ,.table2 td, .table2{
+            border: none;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <table class="table1" >
+         <tr>
+            <th>first name </th>
+            <th>last name </th>
+            <th>savings</th>
+         </tr>
+         <tr>
+            <td>peter</td>
+            <td>giffin</td>
+            <td>100$</td>
+         </tr>
+         <tr>
+            <td>lois</td>
+            <td>griffin</td>
+            <td>150$</td>
+         </tr>
+         <tr>
+            <td>joe</td>
+            <td>sawson</td>
+            <td>300$</td>
+         </tr>
+
+    </table>
+
+
+    <hr>
+
+
+    <table class="table2">
+           <tr>
+            <th>first name </th>
+            <th> last name </th>
+            <th> savings </th>
+           </tr>
+           <tr>
+            <td>manoj </td>
+            <td> thing</td>
+            <td>100$</td>
+           </tr>
+           <tr>
+            <td>rakesh</td>
+            <td>thing</td>
+            <td>150$</td>
+           </tr>
+           <tr>
+            <td>balaji</td>
+            <td>thing</td>
+            <td>200$</td>
+           </tr>
+
+
+    </table>
+
+</body>
+</html>
